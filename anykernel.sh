@@ -3,22 +3,7 @@
 ## Based on the AnyKernel3 framework by osm0sis @ xda-developers
 
 ### AnyKernel setup
-properties() { '
-kernel.string=InfiniR Kernel for Xiaomi Cepheus
-do.devicecheck=1
-do.modules=0
-do.systemless=0
-do.cleanup=1
-do.cleanuponabort=0
-device.name1=cepheus
-device.name2=
-device.name3=
-device.name4=
-device.name5=
-supported.versions=16
-supported.patchlevels=
-supported.vendorpatchlevels=
-'; } # end properties
+properties() { '\nkernel.string=InfiniR Kernel for Xiaomi Cepheus\ndo.devicecheck=1\ndo.modules=0\ndo.systemless=0\ndo.cleanup=1\ndo.cleanuponabort=0\ndevice.name1=cepheus\ndevice.name2=\ndevice.name3=\ndevice.name4=\ndevice.name5=\nsupported.versions=17\nsupported.patchlevels=\nsupported.vendorpatchlevels=\n'; } # end properties
 
 
 ### AnyKernel install
